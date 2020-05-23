@@ -123,6 +123,7 @@ installationloop() { \
 			"A") echo "Cannot install from AUR, fail. ; fail 1 ;;
 			"G") gitmakeinstall "$program" "$comment" ;;
 			"P") pipinstall "$program" "$comment" ;;
+			"I") echo "ignoring, which" "$comment" ;;
 			*) maininstall "$program" "$comment" ;;
 		esac
 	done < /tmp/progs.csv ;}
