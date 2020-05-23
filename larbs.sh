@@ -124,7 +124,8 @@ installationloop() { \
 			"G") gitmakeinstall "$program" "$comment" ;;
 			"P") pipinstall "$program" "$comment" ;;
 			"I") echo "ignoring, which" "$comment" ;;
-			*) maininstall "$program" "$comment" ;;
+			"V") maininstall "$program" "$comment" ;;
+			*) echo "something is wrong... fail"; fail 1 ;;
 		esac
 	done < /tmp/progs.csv ;}
 
