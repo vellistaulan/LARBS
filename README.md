@@ -3,14 +3,15 @@
 
 ## Installation:
 
-On an Arch based distribution as root, run the following:
+On void linux as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
 sh larbs.sh
 ```
 
 That's it.
+
+## !!! The rest of this readme is not true. !!!
 
 ## What is LARBS?
 
